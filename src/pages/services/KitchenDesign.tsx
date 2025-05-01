@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronRight, CheckCircle } from 'lucide-react';
+import { kitchen, kitchendesign } from '../../assets/images';
 
 const KitchenDesign: React.FC = () => {
   return (
@@ -67,7 +68,7 @@ const KitchenDesign: React.FC = () => {
             </div>
             <div className="lg:w-1/2">
               <img
-                src="https://images.pexels.com/photos/6489100/pexels-photo-6489100.jpeg"
+                src={kitchen}
                 alt="Modern Kitchen Design"
                 className="w-full h-auto rounded-lg shadow-lg"
               />
@@ -115,7 +116,7 @@ const KitchenDesign: React.FC = () => {
             <div className="group overflow-hidden rounded-lg shadow-md transition-shadow duration-300 hover:shadow-xl">
               <div className="relative h-64 overflow-hidden">
                 <img
-                  src="https://images.pexels.com/photos/7031881/pexels-photo-7031881.jpeg"
+                  src={kitchendesign}
                   alt="Traditional Kitchen"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -139,7 +140,7 @@ const KitchenDesign: React.FC = () => {
             <div className="group overflow-hidden rounded-lg shadow-md transition-shadow duration-300 hover:shadow-xl">
               <div className="relative h-64 overflow-hidden">
                 <img
-                  src="https://images.pexels.com/photos/7861502/pexels-photo-7861502.jpeg"
+                  src={kitchen}
                   alt="Transitional Kitchen"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />

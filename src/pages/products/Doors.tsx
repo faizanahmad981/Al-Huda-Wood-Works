@@ -146,15 +146,7 @@ const Doors: React.FC = () => {
             </div>
           </div>
 
-          <div className="text-center mt-12">
-            <Link
-              to="/all-products"
-              className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3 rounded-md text-lg font-medium transition-colors inline-flex items-center"
-            >
-              View All Products
-              <ChevronRight size={20} className="ml-2" />
-            </Link>
-          </div>
+          
         </div>
       </section>
 

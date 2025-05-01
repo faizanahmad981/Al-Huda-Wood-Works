@@ -27,7 +27,11 @@ import kitchendesign from './New folder/kitchenDesign.jpg'
 import  floor from  './New folder/floor.jpg'
 import panel from './panel1.png'
 import decoration from './New folder/k.png'
+import interiorDesign1 from './New folder/interiorDesign1.png'
+import kitchenDesign2 from './New folder/kitchenDesign2.png'
+import kitchenDesign3 from './New folder/kitchenDesign3.png'
+import kitchenDesign4 from './New folder/kitchenDesign4.png'
 export {
-    floor, door,door1,door2,engineerDoor,fiber , solidDoor,office,wardrobe,kitchendesign, interiorDesign, flooring, img2, Logo,wood,wood2,wood3,wood4,img1,icon ,icon1,icon2,wardrobes,kitchen,homeFurniture, bottom, living, panel, decoration
+    kitchenDesign3, kitchenDesign2,interiorDesign1, floor, door,door1,door2,engineerDoor,fiber , kitchenDesign4,solidDoor,office,wardrobe,kitchendesign, interiorDesign, flooring, img2, Logo,wood,wood2,wood3,wood4,img1,icon ,icon1,icon2,wardrobes,kitchen,homeFurniture, bottom, living, panel, decoration
 }
 

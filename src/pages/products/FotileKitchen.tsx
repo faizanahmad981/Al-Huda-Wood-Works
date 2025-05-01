@@ -33,7 +33,7 @@ const FotileKitchen: React.FC = () => {
                 <ChevronRight size={20} className="ml-2" />
               </Link>
               <Link
-                to="/fotile-gallery"
+                to="/kitchen-gallery"
                 className="bg-white hover:bg-gray-100 text-emerald-900 px-8 py-3 rounded-md text-lg font-medium transition-colors inline-flex items-center justify-center"
               >
                 View Gallery
@@ -58,20 +58,7 @@ const FotileKitchen: React.FC = () => {
               <p className="text-gray-700 mb-6">
                 Our Fotile kitchen systems are customizable to fit your space, lifestyle, and preferences, ensuring a perfect match for your home and cooking habits.
               </p>
-              <div className="flex gap-4">
-                <Link
-                  to="/fotile-brochure"
-                  className="bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-2 rounded-md font-medium transition-colors"
-                >
-                  Download Brochure
-                </Link>
-                <Link
-                  to="/fotile-showroom"
-                  className="border border-emerald-600 text-emerald-600 hover:bg-emerald-50 px-6 py-2 rounded-md font-medium transition-colors"
-                >
-                  Visit Showroom
-                </Link>
-              </div>
+              
             </div>
             <div className="lg:w-1/2">
               <img
@@ -349,12 +336,7 @@ const FotileKitchen: React.FC = () => {
                 <p className="text-gray-600 mb-4">
                   A sleek, contemporary Fotile kitchen featuring integrated appliances and minimalist design.
                 </p>
-                <Link
-                  to="/projects/modern-luxury-kitchen"
-                  className="text-emerald-700 font-medium inline-flex items-center hover:underline"
-                >
-                  View Project <ChevronRight size={16} className="ml-1" />
-                </Link>
+               
               </div>
             </div>
 
@@ -373,12 +355,7 @@ const FotileKitchen: React.FC = () => {
                 <p className="text-gray-600 mb-4">
                   A space-efficient Fotile kitchen designed for maximum functionality in a compact urban apartment.
                 </p>
-                <Link
-                  to="/projects/urban-apartment-kitchen"
-                  className="text-emerald-700 font-medium inline-flex items-center hover:underline"
-                >
-                  View Project <ChevronRight size={16} className="ml-1" />
-                </Link>
+                
               </div>
             </div>
 
@@ -397,19 +374,14 @@ const FotileKitchen: React.FC = () => {
                 <p className="text-gray-600 mb-4">
                   A spacious Fotile kitchen designed for a large family, featuring multiple cooking zones and ample storage.
                 </p>
-                <Link
-                  to="/projects/family-home-kitchen"
-                  className="text-emerald-700 font-medium inline-flex items-center hover:underline"
-                >
-                  View Project <ChevronRight size={16} className="ml-1" />
-                </Link>
+               
               </div>
             </div>
           </div>
 
           <div className="text-center mt-12">
             <Link
-              to="/fotile-gallery"
+              to="#"
               className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3 rounded-md text-lg font-medium transition-colors inline-flex items-center"
             >
               View All Projects
@@ -604,12 +576,7 @@ const FotileKitchen: React.FC = () => {
             >
               Schedule a Consultation
             </Link>
-            <Link
-              to="/fotile-brochure"
-              className="border-2 border-white text-white hover:bg-white/10 px-8 py-3 rounded-md text-lg font-medium transition-colors"
-            >
-              Download Brochure
-            </Link>
+           
           </div>
         </div>
       </section>

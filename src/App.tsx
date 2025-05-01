@@ -6,11 +6,12 @@ import WhoWeAre from './pages/about/WhoWeAre';
 import WhyShaze from './pages/about/WhyShaze';
 import Services from './pages/services/Services';
 import KitchenDesign from './pages/services/KitchenDesign';
-import Products from './pages/products/Products';
+
 import FotileKitchen from './pages/products/FotileKitchen';
 import Contact from './pages/Contact';
 import InteriorDesign from './pages/services/InteriorDesign';
 import Doors from './pages/products/Doors';
+import ModernKitchenGallery from './pages/KitchenGallery';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="why-shaze" element={<WhyShaze />} />
           <Route path="services" element={<Services />} />
           <Route path="kitchen-design" element={<KitchenDesign />} />
+          <Route path="kitchen-gallery" element={<ModernKitchenGallery />} />
           <Route path="interior-design" element={<InteriorDesign />} />
           <Route path="doors" element={<Doors />} />
           <Route path="fotile-kitchen" element={<FotileKitchen />} />
