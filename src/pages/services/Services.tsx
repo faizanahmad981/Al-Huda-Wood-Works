@@ -28,38 +28,112 @@ const Services: React.FC = () => {
       </section>
 
       {/* Services Overview */}
-      <section className="py-20">
+      {/* Services Overview */}
+      <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4">Transforming Spaces</h2>
+            <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4">
+              Our Services
+            </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              From concept to completion, we offer a full range of interior design services to create beautiful, functional spaces that reflect your style and meet your needs.
+              We offer comprehensive interior design solutions tailored to your
+              unique needs and preferences.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Service 1 */}
-            <div className="group bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-              <div className="relative h-56 overflow-hidden">
-                <img
-                  src={interiorDesign}
-                  alt="Residential Interior Design"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-opacity-40 transition-opacity duration-300"></div>
-                <div className="absolute top-4 left-4 bg-emerald-600 text-white text-sm font-medium py-1 px-3 rounded">
-                  Popular
-                </div>
+            <div className="bg-white p-8 rounded-lg shadow-md transition-transform hover:-translate-y-2 duration-300">
+              <div className="bg-emerald-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <Ruler size={28} className="text-emerald-700" />
               </div>
-              <div className="p-6">
-                <div className="mb-4">
-                  <Ruler className="text-emerald-600 mb-2" size={28} />
-                  <h3 className="text-2xl font-bold mb-2">Interior Design</h3>
-                </div>
-                <p className="text-gray-600 mb-4">
-                  Create a home that reflects your personality and lifestyle with our comprehensive residential design services. We transform houses into personalized havens.
-                </p>
-                <ul className="text-gray-600 mb-6 space-y-2">
+              <h3 className="text-xl font-bold mb-3">
+                Solid engineering doors
+              </h3>
+              <p className="text-gray-600 mb-4">
+                Designed for precision and performance, these doors are crafted
+                using advanced engineering techniques. Perfect for modern homes
+                and offices, offering enhanced security, soundproofing, and fire
+                resistance.
+              </p>
+              <Link
+                to="/services"
+                className="text-emerald-700 font-medium inline-flex items-center hover:underline"
+              >
+                Learn More <ChevronRight size={16} className="ml-1" />
+              </Link>
+            </div>
+
+            {/* Service 2 */}
+            <div className="bg-white p-8 rounded-lg shadow-md transition-transform hover:-translate-y-2 duration-300">
+              <div className="bg-emerald-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <PaintBucket size={28} className="text-emerald-700" />
+              </div>
+              <h3 className="text-xl font-bold mb-3">Office furniture </h3>
+              <p className="text-gray-600 mb-4">
+                Our custom carpentry expertise brings you exquisite office
+                furniture that elevates your workspace. From sleek desks to
+                sophisticated storage solutions, we craft pieces that combine
+                style, comfort, and durability
+              </p>
+              <Link
+                to="/services"
+                className="text-emerald-700 font-medium inline-flex items-center hover:underline"
+              >
+                Learn More <ChevronRight size={16} className="ml-1" />
+              </Link>
+            </div>
+
+            {/* Service 3 */}
+            <div className="bg-white p-8 rounded-lg shadow-md transition-transform hover:-translate-y-2 duration-300">
+              <div className="bg-emerald-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <Sofa size={28} className="text-emerald-700" />
+              </div>
+              <h3 className="text-xl font-bold mb-3">Home furniture</h3>
+              <p className="text-gray-600 mb-4">
+                Our skilled carpenters craft stunning pieces that blend
+                traditional techniques with contemporary style. From luxurious
+                living rooms to cozy bedrooms, our custom wooden furniture
+                brings warmth and sophistication to any space.
+              </p>
+              <Link
+                to="/kitchen-design"
+                className="text-emerald-700 font-medium inline-flex items-center hover:underline"
+              >
+                Learn More <ChevronRight size={16} className="ml-1" />
+              </Link>
+            </div>
+
+            {/* Service 4 */}
+            <div className="bg-white p-8 rounded-lg shadow-md transition-transform hover:-translate-y-2 duration-300">
+              <div className="bg-emerald-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <Users size={28} className="text-emerald-700" />
+              </div>
+              <h3 className="text-xl font-bold mb-3">Kitchen cabinets </h3>
+              <p className="text-gray-600 mb-4">
+                Handcrafted with precision and attention to detail, our cabinets
+                combine style, functionality, and durability. From sleek handles
+                to soft-close drawers, every element is designed to make your
+                cooking experience a joy
+              </p>
+              <Link
+                to="/services"
+                className="text-emerald-700 font-medium inline-flex items-center hover:underline"
+              >
+                Learn More <ChevronRight size={16} className="ml-1" />
+              </Link>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-md transition-transform hover:-translate-y-2 duration-300">
+              <div className="bg-emerald-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <Users size={28} className="text-emerald-700" />
+              </div>
+              <h3 className="text-xl font-bold mb-3">Wardrobes</h3>
+              <p className="text-gray-600 mb-4">
+                Elevate your bedroom with sleek, spacious, and sophisticated
+                storage solutions. Our custom wardrobes blend minimalist chic
+                with maximum functionality.
+              </p>
+              <ul className="text-gray-600 mb-6 space-y-2">
                   <li className="flex items-center">
                     <CheckIcon className="text-emerald-600 mr-2" /> Space planning and layout optimization
                   </li>
@@ -70,140 +144,30 @@ const Services: React.FC = () => {
                     <CheckIcon className="text-emerald-600 mr-2" /> Color schemes and material selection
                   </li>
                 </ul>
-                <Link
-                  to="/residential-design"
-                  className="text-emerald-700 font-medium inline-flex items-center hover:underline"
-                >
-                  Learn More <ChevronRight size={16} className="ml-1" />
-                </Link>
-              </div>
+              <Link
+                to="/services"
+                className="text-emerald-700 font-medium inline-flex items-center hover:underline"
+              >
+                Learn More <ChevronRight size={16} className="ml-1" />
+              </Link>
             </div>
-
-            {/* Service 2 */}
-            <div className="group bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-              <div className="relative h-56 overflow-hidden">
-                <img
-                  src={wardrobe}
-                  alt="Commercial Design"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-opacity-40 transition-opacity duration-300"></div>
+            <div className="bg-white p-8 rounded-lg shadow-md transition-transform hover:-translate-y-2 duration-300">
+              <div className="bg-emerald-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <Users size={28} className="text-emerald-700" />
               </div>
-              <div className="p-6">
-                <div className="mb-4">
-                  <Briefcase className="text-emerald-600 mb-2" size={28} />
-                  <h3 className="text-2xl font-bold mb-2">Wardrobes</h3>
-                </div>
-                <p className="text-gray-600 mb-4">
-                We specialize in customized wardrobe solutions tailored to your space and style.Our designs focus on functionality, aesthetics, and space optimization.
-                </p>
-             
-                <ul className="text-gray-600 mb-6 space-y-2">
-                  <li className="flex items-center">
-                    <CheckIcon className="text-emerald-600 mr-2" /> Modular and sliding wardrobe options
-                  </li>
-                  <li className="flex items-center">
-                    <CheckIcon className="text-emerald-600 mr-2" /> High-quality materials and fittings
-                  </li>
-                  <li className="flex items-center">
-                    <CheckIcon className="text-emerald-600 mr-2" /> Professional installation services
-                  </li>
-                </ul>
-                <Link
-                  to="/commercial-design"
-                  className="text-emerald-700 font-medium inline-flex items-center hover:underline"
-                >
-                  Learn More <ChevronRight size={16} className="ml-1" />
-                </Link>
-              </div>
+              <h3 className="text-xl font-bold mb-3">Wall Panels</h3>
+              <p className="text-gray-600 mb-4">
+                Handcrafted from high-quality wood, our panels bring a touch of
+                natural elegance to any room. Perfect for modern living rooms,
+                cozy bedrooms, or sophisticated offices.
+              </p>
+              <Link
+                to="/services"
+                className="text-emerald-700 font-medium inline-flex items-center hover:underline"
+              >
+                Learn More <ChevronRight size={16} className="ml-1" />
+              </Link>
             </div>
-
-            {/* Service 3 */}
-            <div className="group bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-              <div className="relative h-56 overflow-hidden">
-                <img
-                  src={kitchendesign}
-                  alt="Kitchen Design"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-opacity-40 transition-opacity duration-300"></div>
-                <div className="absolute top-4 left-4 bg-emerald-600 text-white text-sm font-medium py-1 px-3 rounded">
-                  Featured
-                </div>
-              </div>
-              <div className="p-6">
-                <div className="mb-4">
-                  <Sofa className="text-emerald-600 mb-2" size={28} />
-                  <h3 className="text-2xl font-bold mb-2">Kitchen Design</h3>
-                </div>
-                <p className="text-gray-600 mb-4">
-                Specialized kitchen design and installation with premium materials.We craft functional and modern kitchens tailored 
-                to your lifestyle.Our focus is on durability, efficiency, and aesthetic appeal.
-                </p>
-                <ul className="text-gray-600 mb-6 space-y-2">
-                  <li className="flex items-center">
-                    <CheckIcon className="text-emerald-600 mr-2" /> Modular and custom kitchen layouts
-                  </li>
-                  <li className="flex items-center">
-                    <CheckIcon className="text-emerald-600 mr-2" /> Top-tier materials and finishes
-                  </li>
-                  <li className="flex items-center">
-                    <CheckIcon className="text-emerald-600 mr-2" /> End-to-end installation and support
-                  </li>
-                </ul>
-                <Link
-                  to="/kitchen-design"
-                  className="text-emerald-700 font-medium inline-flex items-center hover:underline"
-                >
-                  Learn More <ChevronRight size={16} className="ml-1" />
-                </Link>
-              </div>
-            </div>
-
-            {/* Service 4 */}
-            <div className="group bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-              <div className="relative h-56 overflow-hidden">
-                <img
-                  src={floor}
-                  alt="Renovation & Remodeling"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-opacity-40 transition-opacity duration-300"></div>
-              </div>
-              <div className="p-6">
-                <div className="mb-4">
-                  <PaintBucket className="text-emerald-600 mb-2" size={28} />
-                  <h3 className="text-2xl font-bold mb-2">Floor</h3>
-                </div>
-                <p className="text-gray-600 mb-4">
-                Expert advice and design Floor for your interior projects.Our flooring solutions elevate the look and feel of your spaces.
-                We offer durable, stylish options to match every interior theme.
-                </p>
-                <ul className="text-gray-600 mb-6 space-y-2">
-                  <li className="flex items-center">
-                    <CheckIcon className="text-emerald-600 mr-2" /> Wooden, vinyl, and tile flooring choices
-                  </li>
-                  <li className="flex items-center">
-                    <CheckIcon className="text-emerald-600 mr-2" /> Moisture-resistant and easy-to-clean materials
-                  </li>
-                  <li className="flex items-center">
-                    <CheckIcon className="text-emerald-600 mr-2" /> Expert installation for a seamless finish
-                  </li>
-                </ul>
-                <Link
-                  to="/renovation"
-                  className="text-emerald-700 font-medium inline-flex items-center hover:underline"
-                >
-                  Learn More <ChevronRight size={16} className="ml-1" />
-                </Link>
-              </div>
-            </div>
-
-         
-          
-
-           
-           
           </div>
         </div>
       </section>

@@ -12,24 +12,16 @@ export const navigationItems: NavItem[] = [
   {
     label: 'About Us',
     path: '/about-us',
-    children: [
-      {
-        label: 'About Us',
-    path: '/about-us',
-      },
-      {
-        label: 'Our Process',
-        path: '/our-process',
-      },
-      {
-        label: 'Why Choose Shaze',
-        path: '/why-shaze',
-      },
-    ],
+   
   },
+    {
+        label: 'Why Choose ALHuda',
+        path: '/why-AlHuda',
+      },
   {
     label: 'Services',
     path: '/services',
+    /* 
     children: [
       {
         label: 'Kitchen Design',
@@ -41,33 +33,7 @@ export const navigationItems: NavItem[] = [
       },
      
     ],
+    */
   },
-  {
-    label: 'Products',
-    path: '/products',
-    children: [
-      {
-        label: 'Kitchen',
-        path: '/kitchen',
-        children: [
-          {
-            label: 'Fotile Kitchen',
-            path: '/fotile-kitchen',
-          },
-         
-        ],
-      },
-      {
-        label: 'Furniture',
-        path: '/furniture',
-        children: [
-          {
-            label: 'Door',
-            path: '/doors',
-          },
-         
-        ],
-      },
-    ],
-  },
+  
 ];

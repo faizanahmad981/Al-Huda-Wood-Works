@@ -9,6 +9,7 @@ import {
   Compass,
   Truck,
   MapPin,
+  CheckIcon,
 } from "lucide-react";
 
 const AboutUs: React.FC = () => {
@@ -44,44 +45,52 @@ const AboutUs: React.FC = () => {
       <section className="py-20">
   <div className="container mx-auto px-4">
     <div className="flex flex-col md:flex-row gap-12 items-center">
-      <div className="md:w-1/2">
-        <img
-          src="https://images.pexels.com/photos/3653849/pexels-photo-3653849.jpeg"
-          alt="Our Facility"
-          className="w-full h-auto rounded-lg shadow-lg"
-        />
-      </div>
-      <div className="md:w-1/2">
+     
+      <div className="">
         <h2 className="text-3xl font-serif font-bold mb-6">Our Story</h2>
+         <p className="text-gray-700 mb-4">
+         Al-Huda Woodworks is a well-established furniture manufacturer in Islamabad.
+We design and build modern and classic furniture to home, office, commercial and industrial
+living space. We produce customize fitted furniture, of the highest quality and to ensure we
+meet all of our client's requirements and even exceed their expectation with customer
+satisfaction.
+
+        </p>
         <p className="text-gray-700 mb-4">
           Al-Huda Woodworks operates from our 50,000 square-foot facility in Lahore, serving customers across Punjab and Sindh. Established in 2010, our operation comprises a robust infrastructure, a skilled team, expansive production capacity, and a wide-reaching service area.
         </p>
         <p className="text-gray-700 mb-4">
           Our infrastructure includes a modern, state-of-the-art manufacturing facility equipped with advanced machinery, a dedicated quality control department, and an in-house design and consultation center.
         </p>
-        <p className="text-gray-700 mb-4">
-          The Al-Huda team is made up of seasoned craftsmen, technical supervisors, project managers, and inspectors, all united by a shared passion for woodworking excellence.
-        </p>
+       
         <p className="text-gray-700 mb-4">
           With the ability to produce over 1,000 doors monthly and manage multiple large-scale projects simultaneously, our production capacity allows us to deliver on time without compromising quality.
         </p>
         <p className="text-gray-700 mb-6">
           From residential homes to commercial developments, our service teams operate across key regions with mobile units available for on-site assessments, ensuring convenience and consistency for every client.
         </p>
-        <div className="flex gap-4">
-          <Link
-            to="/who-we-are"
-            className="bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-2 rounded-md font-medium transition-colors"
-          >
-            Who We Are
-          </Link>
-          <Link
-            to="/why-alhuda"
-            className="border border-emerald-600 text-emerald-600 hover:bg-emerald-50 px-6 py-2 rounded-md font-medium transition-colors"
-          >
-            Why Choose Us
-          </Link>
-        </div>
+        <ul className="text-gray-600 mb-6 space-y-2">
+           <h2 className="text-2xl font-serif font-bold mb-6">Core Specialization</h2>
+                  <li className="flex items-center">
+                    <CheckIcon className="text-emerald-600 mr-2" /> Design & Build Solid/Engineering Doors
+                  </li>
+                  <li className="flex items-center">
+                    <CheckIcon className="text-emerald-600 mr-2" /> Quality Office & Home Furniture
+                  </li>
+                  <li className="flex items-center">
+                    <CheckIcon className="text-emerald-600 mr-2" /> Modern Kitchen Cabinets & Wardrobes
+                  </li>
+                  <li className="flex items-center">
+                    <CheckIcon className="text-emerald-600 mr-2" /> Renovation of Modern & Classic Living
+                  </li>
+                  <li className="flex items-center">
+                    <CheckIcon className="text-emerald-600 mr-2" /> Wall Panels & Flooring
+                  </li>
+                  <li className="flex items-center">
+                    <CheckIcon className="text-emerald-600 mr-2" /> Customize Furniture & Decorative Items
+                  </li>
+                </ul>
+      
       </div>
     </div>
   </div>
@@ -91,68 +100,7 @@ const AboutUs: React.FC = () => {
       {/* Our Values */}
      
 
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4">
-              Service Area
-            </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Our services are available across key regions with dedicated
-              support and installation coverage.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Area 1 */}
-            <div className="bg-white p-8 rounded-lg shadow-md text-center">
-              <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <MapPin size={28} className="text-emerald-700" />
-              </div>
-              <h3 className="text-xl font-bold mb-3">Primary Operations</h3>
-              <p className="text-gray-600">
-                We primarily operate in [specific areas/cities].
-              </p>
-            </div>
-
-            {/* Area 2 */}
-            <div className="bg-white p-8 rounded-lg shadow-md text-center">
-              <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Truck size={28} className="text-emerald-700" />
-              </div>
-              <h3 className="text-xl font-bold mb-3">Distribution Network</h3>
-              <p className="text-gray-600">
-                Wide-reaching logistics covering [regions] efficiently and
-                reliably.
-              </p>
-            </div>
-
-            {/* Area 3 */}
-            <div className="bg-white p-8 rounded-lg shadow-md text-center">
-              <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Hammer size={28} className="text-emerald-700" />
-              </div>
-              <h3 className="text-xl font-bold mb-3">Installation Services</h3>
-              <p className="text-gray-600">
-                Full installation coverage across [coverage area] with skilled
-                professionals.
-              </p>
-            </div>
-
-            {/* Area 4 */}
-            <div className="bg-white p-8 rounded-lg shadow-md text-center">
-              <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Compass size={28} className="text-emerald-700" />
-              </div>
-              <h3 className="text-xl font-bold mb-3">Mobile Teams</h3>
-              <p className="text-gray-600">
-                On-site assessment and support through our agile mobile response
-                teams.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+     
 
       {/* Team Section */}
       <section className="py-20">

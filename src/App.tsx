@@ -21,7 +21,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about-us" element={<AboutUs />} />
           <Route path="our-process" element={<WhoWeAre />} />
-          <Route path="why-shaze" element={<WhyShaze />} />
+          <Route path="why-AlHuda" element={<WhyShaze />} />
           <Route path="services" element={<Services />} />
           <Route path="kitchen-design" element={<KitchenDesign />} />
           <Route path="kitchen-gallery" element={<ModernKitchenGallery />} />
