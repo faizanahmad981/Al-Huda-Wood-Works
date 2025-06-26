@@ -158,7 +158,7 @@ const Home: React.FC = () => {
                   />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg">Michael Johnson</h4>
+                  <h4 className="font-bold text-lg">Faizan Ahmed</h4>
                   <p className="text-gray-500">Homeowner</p>
                 </div>
               </div>
@@ -180,7 +180,7 @@ const Home: React.FC = () => {
                   />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg">Sarah Williams</h4>
+                  <h4 className="font-bold text-lg">Abdul Saboor</h4>
                   <p className="text-gray-500">Business Owner</p>
                 </div>
               </div>
@@ -202,7 +202,7 @@ const Home: React.FC = () => {
                   />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg">David Chen</h4>
+                  <h4 className="font-bold text-lg">Faisal Khawaj</h4>
                   <p className="text-gray-500">Apartment Owner</p>
                 </div>
               </div>
