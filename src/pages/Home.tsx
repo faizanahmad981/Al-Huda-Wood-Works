@@ -142,7 +142,7 @@ const Home: React.FC = () => {
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Hear from our satisfied clients about their experience working
-              with Shaze Interiors.
+              with Al Huda Woodworks
             </p>
           </div>
 
@@ -163,7 +163,7 @@ const Home: React.FC = () => {
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "Shaze Interiors transformed our outdated kitchen into a modern
+                "Al-Huda Woodworks transformed our outdated kitchen into a modern
                 masterpiece. The attention to detail and quality of workmanship
                 exceeded our expectations."
               </p>
@@ -185,7 +185,7 @@ const Home: React.FC = () => {
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "We hired Shaze to redesign our office space, and the results
+                "We hired Al-huda woodworks to redesign our office space, and the results
                 were phenomenal. Our employees love the new environment, and it
                 has significantly boosted productivity."
               </p>
@@ -207,7 +207,7 @@ const Home: React.FC = () => {
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "The team at Shaze Interiors was professional, creative, and
+                "The team at Al-huda Woodworks was professional, creative, and
                 responsive throughout our entire apartment renovation. They
                 turned our vision into reality."
               </p>
